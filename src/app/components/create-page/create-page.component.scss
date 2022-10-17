@@ -1,0 +1,23 @@
+.formPanel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.formElement {
+    display: flex;
+    justify-content:flex-start;
+    margin: 4px;
+    column-width: 20px;
+}
+
+.input-field {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.heading {
+    // margin-left: 50%;
+    text-align: center;
+}

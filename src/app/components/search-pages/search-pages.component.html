@@ -1,1 +1,25 @@
-<p>search-pages works!</p>
+<div>
+    <h2 class="heading">Search Books</h2>
+    <section class="searchPanel">
+        <div class="formElement">
+            <label for="title">Title</label>
+            <input class="input-field" name="title" type="text" placeholder="Enter Title">
+        </div>
+        <div class="formElement">
+            <label for="author">Author</label>
+            <input class="input-field" name="author" type="text" placeholder="Enter Author's name">
+        </div>
+        <div class="formElement">
+            <label for="publisher">Publisher</label>
+            <input class="input-field" name="publisher" type="text" placeholder="Enter publisher">
+        </div>
+        <div class="formElement">
+            <label for="releaseDate">Release Date</label>
+            <input class="input-field" name="releaseDate" type="date" placeholder="Enter release date">
+        </div>
+
+        <button class="input-field" style="margin-top: 20px;">Search</button>
+    </section>
+
+    <a type="button" routerLink="/create" routerLinkActive="active" ariaCurrentWhenActive="page">Create Page</a>
+</div>
